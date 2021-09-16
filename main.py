@@ -28,7 +28,7 @@ if __name__ == "__main__":
     </body>
     </html>
     """
-    url = "https://playwright.neocities.org/"
+    url = "https://playwrightdebug.netlify.app"
     loop = asyncio.get_event_loop()
     ret = loop.run_until_complete(async_get_page_source(url=url))
     print(ret)
