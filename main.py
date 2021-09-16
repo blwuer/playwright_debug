@@ -16,7 +16,7 @@ async def async_get_page_source(url):
         page_source = await page.content()
         await browser.close()
         return page_source
-        raise
+        
 if __name__ == "__main__":
     """
     <html>
